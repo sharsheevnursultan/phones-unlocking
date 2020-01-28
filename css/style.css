@@ -1,0 +1,16 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-height{
+    height: 500px;
+}
+.main-bg{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image:linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4)), url("../img/locked-phone.jpg");
+}
