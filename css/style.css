@@ -36,6 +36,7 @@ p {
     position: absolute;
     width: 220px;
     opacity: 0;
+    color: white;
 }
 
 .letter {
