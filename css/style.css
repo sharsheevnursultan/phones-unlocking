@@ -23,6 +23,9 @@
 .margin-0-auto{
     margin: auto 0;
 }
+.width-custom-p{
+    width: 100px;
+}
 p {
     display: inline-block;
     vertical-align: top;
