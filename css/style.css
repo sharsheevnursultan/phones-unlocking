@@ -16,141 +16,68 @@
     background-image: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4)), url("../img/locked-phone.jpg");
 }
 
+.text {
 
-.Iam {
-    display: flex;
-    font-size: 40px;
 }
 
-.Iam p {
-    height: 50px;
-    float: left;
-    margin-right: 0.3em;
+.margin-0-auto{
+    margin: auto 0;
 }
-
-.Iam b {
-    float: left;
-    overflow: hidden;
-    position: relative;
-    height: 50px;
-    top: 40px;
-}
-
-.Iam .innerIam {
+p {
     display: inline-block;
-    color: #e74c3c;
+    vertical-align: top;
+    margin: 0;
+}
+
+.word {
+    position: absolute;
+    width: 220px;
+    opacity: 0;
+}
+
+.letter {
+    display: inline-block;
     position: relative;
-    white-space: nowrap;
-    top: 0;
-    left: 0;
-
-
-    /*animation*/
-    -webkit-animation: move 5s;
-    -moz-animation: move 5s;
-    -ms-animation: move 5s;
-    -o-animation: move 5s;
-    animation: move 5s;
-    /*animation-iteration-count*/
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -ms-animation-iteration-count: infinite;
-    -o-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    /*animation-delay*/
-    -webkit-animation-delay: 1s;
-    -moz-animation-delay: 1s;
-    -ms-animation-delay: 1s;
-    -o-animation-delay: 1s;
-    animation-delay: 1s;
+    float: left;
+    transform: translateZ(25px);
+    transform-origin: 50% 50% 25px;
 }
 
-@keyframes move {
-    0% {
-        top: 0px;
-    }
-    20% {
-        top: -50px;
-    }
-    40% {
-        top: -100px;
-    }
-    60% {
-        top: -150px;
-    }
-    80% {
-        top: -200px;
-    }
+.letter.out {
+    transform: rotateX(90deg);
+    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
-@-webkit-keyframes move {
-    0% {
-        top: 0px;
-    }
-    20% {
-        top: -50px;
-    }
-    40% {
-        top: -100px;
-    }
-    60% {
-        top: -150px;
-    }
-    80% {
-        top: -200px;
-    }
+.letter.behind {
+    transform: rotateX(-90deg);
 }
 
-@-moz-keyframes move {
-    0% {
-        top: 0px;
-    }
-    20% {
-        top: -50px;
-    }
-    40% {
-        top: -100px;
-    }
-    60% {
-        top: -150px;
-    }
-    80% {
-        top: -200px;
-    }
+.letter.in {
+    transform: rotateX(0deg);
+    transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-@-o-keyframes move {
-    0% {
-        top: 0px;
-    }
-    20% {
-        top: -50px;
-    }
-    40% {
-        top: -100px;
-    }
-    60% {
-        top: -150px;
-    }
-    80% {
-        top: -200px;
-    }
+.wisteria {
+    color: #8e44ad;
 }
 
-@keyframes move {
-    0% {
-        top: 0px;
-    }
-    20% {
-        top: -50px;
-    }
-    40% {
-        top: -100px;
-    }
-    60% {
-        top: -150px;
-    }
-    80% {
-        top: -200px;
-    }
+.belize {
+    color: #2980b9;
+}
+
+.pomegranate {
+    color: #c0392b;
+}
+
+.green {
+    color: #16a085;
+}
+
+.midnight {
+    color: #2c3e50;
+}
+
+.fs-40{
+    font-weight: bold;
+    font-size: 40px;
 }
