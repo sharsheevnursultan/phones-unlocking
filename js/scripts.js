@@ -9,7 +9,7 @@ for (var i = 0; i < words.length; i++) {
 
 function changeWord() {
     var cw = wordArray[currentWord];
-    var nw = currentWord === words.length-1 ? wordArray[0] : wordArray[currentWord+1];
+    var nw = currentWord === words.length - 1 ? wordArray[0] : wordArray[currentWord + 1];
     for (var i = 0; i < cw.length; i++) {
         animateLetterOut(cw, i);
     }
@@ -20,19 +20,19 @@ function changeWord() {
         animateLetterIn(nw, i);
     }
 
-    currentWord = (currentWord === wordArray.length-1) ? 0 : currentWord+1;
+    currentWord = (currentWord === wordArray.length - 1) ? 0 : currentWord + 1;
 }
 
 function animateLetterOut(cw, i) {
-    setTimeout(function() {
+    setTimeout(function () {
         cw[i].className = 'letter out';
-    }, i*80);
+    }, i * 80);
 }
 
 function animateLetterIn(nw, i) {
-    setTimeout(function() {
+    setTimeout(function () {
         nw[i].className = 'letter in';
-    }, 340+(i*80));
+    }, 340 + (i * 80));
 }
 
 function splitLetters(word) {
