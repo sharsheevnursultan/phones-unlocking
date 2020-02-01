@@ -84,6 +84,7 @@ p {
 
 }
 .min-h-120{
+    width: 100%;
     text-align: center;
-    min-height: 120px;
+    min-height: 5em;
 }
