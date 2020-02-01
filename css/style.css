@@ -74,3 +74,16 @@ p {
 .margin-0-10{
     margin: 10px;
 }
+
+.fa-unlock-alt,
+.fa-shield-alt,
+.fa-clock{
+    color: firebrick;
+    font-size:50px;
+    margin: 20px 20px 0 20px;
+
+}
+.min-h-120{
+    text-align: center;
+    min-height: 120px;
+}
