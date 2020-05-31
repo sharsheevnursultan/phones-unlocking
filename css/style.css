@@ -14,7 +14,7 @@
     /*background-attachment: fixed;*/
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4)), url("../img/locked-phone.jpg");
+    background-image: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4)), url("../img/repair-iphone.jpg");
 }
 
 
@@ -34,7 +34,7 @@ p {
 
 .word {
     position: absolute;
-    width: 220px;
+    /*width: 220px;*/
     opacity: 0;
     color: white;
 }
@@ -64,6 +64,10 @@ p {
 .fs-40 {
     font-weight: bold;
     font-size: 40px;
+}
+
+.fs-70{
+    font-size: 70px;
 }
 
 @media (max-width: 420px ) {
@@ -121,5 +125,9 @@ p {
 .custom-h2:after {
     top: -10px;
     right: 0;
+}
+
+.myAccordionText {
+    cursor: pointer;
 }
 
