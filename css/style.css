@@ -142,6 +142,8 @@ p {
 }
 
 .phone-card{
+    border: 1px solid;
+    border-radius: 5px;
     padding: 15px 0;
 }
 
