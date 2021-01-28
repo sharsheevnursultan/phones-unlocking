@@ -16,6 +16,13 @@
     background-size: cover;
     background-image: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4)), url("../img/repair-iphone.jpg");
 }
+.main-bg-index{
+       /*background-attachment: fixed;*/
+       background-position: center;
+       background-size: cover;
+       background-image: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4)), url("../img/daniel-romero-73tFTwOrKPg-unsplash.jpg");
+   
+}
 
 
 .margin-0-auto {
@@ -82,6 +89,9 @@ p {
 }
 
 .fa-unlock-alt,
+.fa-mobile-alt,
+.fa-headphones-alt,
+.fa-tools,
 .fa-shield-alt,
 .fa-clock {
     color: #397ed0;
@@ -131,3 +141,13 @@ p {
     cursor: pointer;
 }
 
+.phone-card{
+
+}
+
+.phone-img{
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
