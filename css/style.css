@@ -3,7 +3,6 @@
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
-
 }
 
 .custom-height {
@@ -16,14 +15,13 @@
     background-size: cover;
     background-image: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4)), url("../img/repair-iphone.jpg");
 }
-.main-bg-index{
-       /*background-attachment: fixed;*/
-       background-position: center;
-       background-size: cover;
-       background-image: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4)), url("../img/daniel-romero-73tFTwOrKPg-unsplash.jpg");
-   
-}
 
+.main-bg-index {
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4)), url("../img/daniel-romero-73tFTwOrKPg-unsplash.jpg");
+}
 
 .margin-0-auto {
     margin: auto 0;
@@ -34,7 +32,6 @@
 }
 
 p {
-    display: inline-block;
     vertical-align: top;
     margin: 0;
 }
@@ -73,15 +70,14 @@ p {
     font-size: 40px;
 }
 
-.fs-70{
+.fs-70 {
     font-size: 70px;
 }
 
-@media (max-width: 420px ) {
+@media (max-width: 420px) {
     .fs-40 {
         font-size: 34px;
     }
-
 }
 
 .margin-0-10 {
@@ -97,7 +93,6 @@ p {
     color: #397ed0;
     font-size: 50px;
     margin: 20px auto;
-
 }
 
 .about-in {
@@ -116,7 +111,8 @@ p {
     color: #fff;
 }
 
-.custom-h2:before, .custom-h2:after {
+.custom-h2:before,
+.custom-h2:after {
     background-color: #a44;
     width: 50px;
     height: 50px;
@@ -141,15 +137,18 @@ p {
     cursor: pointer;
 }
 
-.phone-card{
+.phone-card {
     border: 1px solid;
     border-radius: 5px;
-    padding: 15px 0;
 }
 
-.phone-img{
+.phone-img {
     width: 100%;
     height: auto;
     background-position: center;
     background-size: cover;
+}
+
+.phone-card-text {
+    padding: 5px;
 }
